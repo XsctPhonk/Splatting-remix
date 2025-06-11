@@ -1,0 +1,47 @@
+export const weaponKits = [
+  {
+    id: 'splattershot',
+    name: 'Splattershot',
+    type: 'Shooter',
+    damage: 40,
+    fireRate: 0.15, // shots per second
+    range: 200,
+    inkUsage: 5,
+    subWeapon: 'Suction Bomb',
+    specialWeapon: 'Tenta Missiles',
+  },
+  {
+    id: 'splatroller',
+    name: 'Splat Roller',
+    type: 'Roller',
+    damage: 70,
+    fireRate: 1.2,
+    range: 150,
+    inkUsage: 8,
+    subWeapon: 'Sprinkler',
+    specialWeapon: 'Splashdown',
+  },
+  {
+    id: 'chargingshooter',
+    name: 'Chargershot',
+    type: 'Charger',
+    damage: 150,
+    fireRate: 0.9,
+    range: 450,
+    inkUsage: 12,
+    subWeapon: 'Autobomb',
+    specialWeapon: 'Baller',
+  },
+  {
+    id: 'dualies',
+    name: 'Splat Dualies',
+    type: 'Dualies',
+    damage: 35,
+    fireRate: 0.18,
+    range: 180,
+    inkUsage: 6,
+    subWeapon: 'Torpedo',
+    specialWeapon: 'Inkjet',
+  },
+  // Add more weapons here with stats modeled roughly from Splatoon 3
+];
